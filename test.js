@@ -1,9 +1,9 @@
 function even() {
-  let arr = [];
+  let evenArr = [];
   for (let i = 1; i < 51; i++) {
     if (i % 2 === 0) {
-      arr.push(i);
+      evenArr.push(i);
     }
   }
-  return arr;
+  return evenArr;
 }
